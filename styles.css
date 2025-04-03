@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF5E1; /* Cream */
+    color: #333;
+  }
+  
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #008080; /* Teal */
+    color: white;
+  }
+  
+  .hero-content h1 {
+    font-size: 4rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+  
+  .hero-content .btn {
+    padding: 10px 10px;
+    background-color: #FF69B4; /* Pink */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .hero-content .btn:hover {
+    background-color: #C85087; /* Darker Pink */
+  }
+  
+  /* Sections */
+  section {
+    padding: 50px 10%;
+    text-align: center;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #FFF5E1; /* Cream */
+  }
+  
+  .about-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .about-content p {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Skills & Projects */
+  #skills, #projects {
+    background-color: #008080; /* Teal */
+    color: white;
+  }
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .skills-table {
+    width: 250px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1.1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .skills-table th {
+    padding: 12px;
+    font-size: 1.3rem;
+    color: white;
+  }
+  
+  .skills-table td {
+    padding: 10px;
+    background-color: #FFF5E1; /* Cream */
+    border: 1px solid #ddd;
+    color: darkslategrey;
+  }
+  
+  .skills-table.backend th {
+    background-color: #008080; /* Teal */
+  }
+  
+  .skills-table.databases th {
+    background-color: #FF69B4; /* Pink */
+  }
+  
+  .skills-table.version-control th {
+    background-color: #C85087; /* Darker Pink */
+  }
+  
+  .skills-table:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  /* programming languages */
+  #programming-languages
+
+  .languages-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .languages-list li {
+    font-size: 1.2rem;
+    background-color: #FFF5E1; /* Cream */
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .languages-list i {
+    font-size: 1.5rem;
+    color: #008080; /* Teal */
+  }  
+
+  #education, #interests {
+    background-color: #FFF5E1; /* Cream */
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #008080; /* Teal */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #005B5B; /* Darker Teal */
+    transform: scale(1.05);
+  }
+  
+  /* Projects */
+  #projects
+
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .project-card {
+    background-color: #FF69B4; /* Pink */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Section */
+  #contact
+
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .contact-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #008080; /* Teal */
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-links a:hover {
+    background-color: #005B5B; /* Darker Teal */
+    transform: scale(1.05);
+  }
+  
+  .contact-links i {
+    font-size: 1.5rem;
+  }  
+
+  /* Footer */
+
+  footer {
+    background-color: #008080; /* Teal */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }  
