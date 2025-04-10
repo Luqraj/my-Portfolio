@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/36326dd3-4b71-45be-b287-57a5cb4ce80b/deploy-status)](https://app.netlify.com/sites/luqraj/deploys)
 # 🚀 Personal Portfolio Website
 
 This is my **minimal, yet appealing and responsive** personal portfolio website. It showcases my **skills, projects, educational background and professional interests** in software development and technology.
